@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cde3ea;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+nav .logo {
+    font-family: "Playwrite GB S", cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav .login-btn {
+    background: #28a745;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+.hero {
+    background: url('path/to/your/hero-image.jpg') no-repeat center center/cover;
+    height: 150px;
+    text-align: center;
+    color: black;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.expiry-tracker {
+    background: white;
+    padding: 30px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.expiry-tracker h2 {
+    margin-bottom: 20px;
+}
+
+.expiry-tracker form {
+    display: flex;
+    gap: 10px;
+}
+
+.expiry-tracker input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.expiry-tracker button {
+    padding: 10px 20px;
+    background: #28a745;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.expiry-tracker ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.expiry-tracker ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    margin-left: 500px;
+    margin-top: 0px;
+}

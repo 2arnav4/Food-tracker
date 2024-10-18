@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Food Expiry Tracker</title>
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo">FRESK</div>
+        <ul>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Forums</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#" class="login-btn">Log In</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="hero">
+    <h1>Keep Track of Your Food Expiry Dates</h1>
+    <p>Never lose track of your food again!</p>
+   
+</div>
+<img class = "img" src="image.png" alt="fruits and vegetables">
+<div class="expiry-tracker">
+    <h2>Track Your Food Expiry Dates</h2>
+    <form id="expiryForm">
+        <input type="text" id="foodName" placeholder="Food Item Name" required>
+        <input type="date" id="expiryDate" required>
+        <button type="submit">Add</button>
+    </form>
+    <ul id="expiryList"></ul>
+</div>
+
+<script src="script.js" defer></script>
+
+</body>
+</html>
